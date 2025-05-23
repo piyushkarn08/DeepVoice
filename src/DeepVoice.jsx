@@ -33,67 +33,7 @@ function App() {
 
         {tab === "documentation" && (
           <section className="bg-white/10 p-6 rounded-xl shadow-xl">
-            <h2 className="text-3xl font-semibold mb-4">
-DeepVoice Translator Documentation - translator.py
---------------------------------------------------
-
-This script converts spoken English into spoken Telugu using AI models.
-
---------------------------------------------------
-1. Transcribe English Audio (Whisper)
---------------------------------------------------
-Library: OpenAI Whisper
-Function: transcribe_audio(audio_path)
-Description:
-  Converts input English speech (input.wav) into text using Whisper's 'base' model.
-
---------------------------------------------------
-2. Translate English to Telugu (Meta NLLB)
---------------------------------------------------
-Library: Meta's NLLB via Hugging Face
-Function: translate_text(text)
-Model: facebook/nllb-200-distilled-600M
-Target Language Code: tel_Telu
-
---------------------------------------------------
-3. Generate Telugu Speech (gTTS)
---------------------------------------------------
-Library: Google Text-to-Speech (gTTS)
-Function: synthesize_speech(text, language="te")
-Output: Saves Telugu audio as output.wav
-
---------------------------------------------------
-4. Main Execution
---------------------------------------------------
-def main(audio_path):
-    text = transcribe_audio(audio_path)
-    translated = translate_text(text)
-    output_audio = synthesize_speech(translated, language="te")
-
---------------------------------------------------
-How to Use
---------------------------------------------------
-1. Place an English audio file named 'input.wav' in the same folder.
-2. Run:
-   python translator.py
-3. The translated Telugu audio will be saved as 'output.wav'.
-
---------------------------------------------------
-Dependencies
---------------------------------------------------
-pip install openai-whisper
-pip install git+https://github.com/huggingface/transformers
-pip install TTS
-pip install gTTS
-
-Also install FFmpeg: https://ffmpeg.org/download.html
-
---------------------------------------------------
-Notes
---------------------------------------------------
-- Works offline after models are downloaded.
-- For better voice quality, consider using larger Whisper models or Coqui TTS instead of gTTS.
-</h2>
+            <h2 className="text-3xl font-semibold mb-4">How to Use DeepVoice</h2>
             <ol className="list-decimal list-inside space-y-2">
               <li>Download the Python script from the download tab.</li>
               <li>Run it in Python (install dependencies like whisper, gTTS, transformers, TTS).</li>
