@@ -32,8 +32,9 @@ function App() {
               href="/downloads/requirements.txt"
               download
               className="text-blue-300 hover:text-blue-500 underline"
->           📦 Download Requirements File
-            </a>
+            >
+  📦 Download Requirements File
+</a>
           </section>
         )}
 
