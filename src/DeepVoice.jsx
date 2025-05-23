@@ -47,8 +47,9 @@ function App() {
           <section className="bg-white/10 p-6 rounded-xl shadow-xl">
             <h2 className="text-3xl font-semibold mb-4">Contact / About Me</h2>
             <p>
-              Hello! I'm the creator of DeepVoice, a platform dedicated to helping people overcome language barriers using Python and AI.
+              Hello! I'm Piyush Karn, the founder of DeepVoice, a platform dedicated to helping people overcome language barriers using Python and AI.
               Feel free to reach out to me for feedback, collaborations, or just to connect!
+              Email: karnp8530@gmail.com
             </p>
           </section>
         )}
