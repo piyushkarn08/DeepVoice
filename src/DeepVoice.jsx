@@ -42,8 +42,7 @@ function App() {
     <h2 className="text-3xl font-semibold mb-4">How to Use DeepVoice</h2>
     <ol className="list-decimal list-inside space-y-2 mb-4">
       <li>Download the Python script from the download tab.</li>
-      <li>Run it in Python (install dependencies like whisper, gTTS, transformers, TTS). Download requirement.txt file and run "pip install -r requirements.txt
-" in cmd to install all together </li>
+      <li>Run it in Python (install dependencies like whisper, gTTS, transformers, TTS).</li>
       <li>Provide an English audio file as input.</li>
       <li>The script transcribes, translates, and outputs a Telugu audio file.</li>
       <li>More information download Documentation file.</li>
