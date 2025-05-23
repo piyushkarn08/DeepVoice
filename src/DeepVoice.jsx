@@ -32,16 +32,24 @@ function App() {
         )}
 
         {tab === "documentation" && (
-          <section className="bg-white/10 p-6 rounded-xl shadow-xl">
-            <h2 className="text-3xl font-semibold mb-4">How to Use DeepVoice</h2>
-            <ol className="list-decimal list-inside space-y-2">
-              <li>Download the Python script from the download tab.</li>
-              <li>Run it in Python (install dependencies like whisper, gTTS, transformers, TTS).</li>
-              <li>Provide an English audio file as input.</li>
-              <li>The script transcribes, translates, and outputs a Telugu audio file.</li>
-            </ol>
-          </section>
-        )}
+  <section className="bg-white/10 p-6 rounded-xl shadow-xl">
+    <h2 className="text-3xl font-semibold mb-4">How to Use DeepVoice</h2>
+    <ol className="list-decimal list-inside space-y-2 mb-4">
+      <li>Download the Python script from the download tab.</li>
+      <li>Run it in Python (install dependencies like whisper, gTTS, transformers, TTS).</li>
+      <li>Provide an English audio file as input.</li>
+      <li>The script transcribes, translates, and outputs a Telugu audio file.</li>
+    </ol>
+    <a
+      href="/downloads/translator_documentation.txt"
+      download
+      className="text-blue-300 hover:text-blue-500 underline"
+    >
+      📄 Download Detailed Documentation (TXT)
+    </a>
+  </section>
+)}
+
 
         {tab === "contact" && (
           <section className="bg-white/10 p-6 rounded-xl shadow-xl">
