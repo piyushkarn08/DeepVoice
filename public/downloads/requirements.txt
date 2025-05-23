@@ -1,0 +1,5 @@
+whisper
+transformers
+TTS
+gTTS
+torch
