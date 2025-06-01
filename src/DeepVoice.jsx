@@ -5,7 +5,7 @@ function App() {
   const [tab, setTab] = useState("download");
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#f1f3f6] via-[#e6eaf1] to-[#dee3ec] text-[#111827] p-8 font-sans">
+    <main className="min-h-screen bg-[#cbcdd7] text-[#111827] p-8 font-sans">
       <div className="max-w-5xl mx-auto">
         {/* Replaced text with logo */}
         <div className="flex justify-center mb-4">
